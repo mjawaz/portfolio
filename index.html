@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Mjawaz - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Yousef Mjawaz" class="profile-small">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> <span>Education</span></a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fas fa-code"></i> <span>Projects</span></a></li>
+                    <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> <span>Experience</span></a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </nav>
+            <div class="cv-button">
+                <a href="assets/CV_Yousef.pdf" target="_blank" class="btn">
+                    <i class="fas fa-file-alt"></i> CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text">
+                        <h1>Hi</h1>
+                        <h2>I'm <span class="highlight">Yousef Mjawaz</span></h2>
+                        <h3>a computer science<br>student from Hamburg</h3>
+                        <p>Pursuing a Bachelor of Science in Computer Science for Technical Systems at the University of Applied Sciences in Hamburg (HAW-Hamburg).</p>
+                        <p>I am passionate about technology, innovation, and solving complex problems through code.</p>
+                    </div>
+                    <div class="home-image">
+                        <img src="images/profile.jpg" alt="Yousef Mjawaz" class="profile-large">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-container">
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>HAW Hamburg</h3>
+                            <span class="period">2021 – Present</span>
+                        </div>
+                        <p class="degree">B. Sc. Computer Science in Technical Systems (7th Semester)</p>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>Gymnasium Rahlstedt</h3>
+                            <span class="period">2016 – 2021</span>
+                        </div>
+                        <p class="degree">High School Diploma with a specialization in Computer Science:</p>
+                        <ul class="details">
+                            <li>Programming (Java, Scheme)</li>
+                            <li>Cryptography</li>
+                            <li>Intelligent Search Methods (Search Algorithms)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Festo-Transfer System</h3>
+                            <p class="technologies">Technologies: C & C++</p>
+                            <p class="environment">Development Environment: QNX Momentics</p>
+                        </div>
+                        <div class="project-details">
+                            <p>Development of software for a workpiece sorting system based on two conveyor modules (Festo transfer systems) using an AM335x processor (Embedded Programming).</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Mastermind Game</h3>
+                            <p class="technologies">Technologies: Rust</p>
+                            <p class="environment">Development Environment: RustRover</p>
+                        </div>
+                        <div class="project-details">
+                            <p>Development of a Mastermind game, including a graphical user interface (GUI).</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Philosophers Problem</h3>
+                            <p class="technologies">Technologies: Python</p>
+                            <p class="environment">Development Environment: VS Code</p>
+                        </div>
+                        <div class="project-details">
+                            <p>Development of a decentralized solution for the philosopher's problem in Docker containers with communication via RPC and messages. Both the philosophers and the forks were distributed across multiple computers, and the visualization was done in Node-RED.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Chat Protocol</h3>
+                            <p class="technologies">Technologies: Java</p>
+                            <p class="environment">Development Environment: IntelliJ</p>
+                        </div>
+                        <div class="project-details">
+                            <p>Development of a decentralized IPv4 chat protocol for peer-to-peer communication, including ensuring interoperability between implementations of different group members and testing communication across at least three computers.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Producer-Consumer Problem</h3>
+                            <p class="technologies">Technologies: C, Java</p>
+                            <p class="environment">Development Environment: CLion, IntelliJ</p>
+                        </div>
+                        <div class="project-details">
+                            <p>Simulation of the producer-consumer problem using semaphores, mutexes, and a self-implemented doubly linked list.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="experience-container">
+                    <div class="experience-item">
+                        <h3>Studying at university</h3>
+                        <p class="technologies">Programming languages: Java, C, C++, Python, Rust</p>
+                        <p class="description">While I don't have professional work experience, I have gained valuable experience through personal and university projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="info">
+                                <p class="label">Email</p>
+                                <a href="mailto:mjawaz.business@gmail.com">mjawaz.business@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info">
+                                <p class="label">Address</p>
+                                <p>
+                                    <a href="https://www.google.com/maps?q=Hamburg,Germany" target="_blank" rel="noopener noreferrer">
+                                        Hamburg, Germany
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Social Media Buttons -->
+                        <h3 style="margin-top: 30px;">Social Media</h3>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/yousef_m02" target="_blank" class="social-icon" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/yousef-mjawaz" target="_blank" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/mjawaz" target="_blank" class="social-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send Message</h3>
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                            <input type="hidden" name="access_key" value="5ccf2bb2-e767-4838-b009-edc5f1905cbe">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message" required style="height: 100px;"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Yousef Mjawaz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
